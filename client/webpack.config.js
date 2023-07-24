@@ -29,13 +29,13 @@ module.exports = () => {
         name: 'Not Another Text Editor',
         short_name: 'JATE Editor',
         description: 'Another Editor',
-        background_collor: '225ca3',
+        background_collor: '#225ca3',
         theme_color: '#2196f3',
         start_url: '/',
         publicPath: '/',
         icons: [
           {
-            src: path.resolve('src/assets/icon.png'),
+            src: path.resolve('src/assets/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
           },
