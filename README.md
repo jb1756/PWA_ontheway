@@ -14,7 +14,8 @@ Application is a web text editor where the users is able to create notes and cod
 Application will require installation of node.js
 Please see the follwoing npm packages in the package.json file.
 
-Run application on the gitbash terminal by "npm run install, this will eventually start the application
+Run application on the gitbash terminal by "npm run install, this will eventually start the application.
+npm run install in both client and server side.
 
 ## Usage
 
