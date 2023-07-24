@@ -31,7 +31,7 @@ module.exports = () => {
         description: 'Another Editor',
         background_collor: '225ca3',
         theme_color: '#2196f3',
-        start_url '/',
+        start_url: '/',
         publicPath: '/',
         icons: [
           {
@@ -42,10 +42,10 @@ module.exports = () => {
         ],
       }),
 
-      new InjectManifest ([
+      new InjectManifest ({
         swSrc: './src/sw.js',
         swDest: 'src-sw.js',
-      ]),
+      }),
       
       
     ],
@@ -58,7 +58,7 @@ module.exports = () => {
         },
         {
           test: /\.m?js$/,
-          excluse: /node_modules/,
+          exclude: /node_modules/,
           use: {
             loader: 'babel-loader',
             options: {
@@ -67,7 +67,6 @@ module.exports = () => {
             },
           },
         },
-        
       ],
     },
   };
